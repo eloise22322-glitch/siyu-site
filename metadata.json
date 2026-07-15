@@ -1,0 +1,6 @@
+{
+  "name": "新媒体运营个人网站",
+  "description": "一个高饱和度、新丑风 (Neobrutalism) 格式的新媒体运营个人主页，包含首页、关于我、我的项目、我的作品等板块，完美契合视觉图片风格。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
