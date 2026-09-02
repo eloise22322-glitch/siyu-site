@@ -85,6 +85,7 @@ export default function AboutSection() {
                     <p className="font-mono text-xs text-gray-500 font-bold sm:ml-auto">
                       @{exp.company}
                     </p>
+                  </div>
 
                   {(() => {
                     const items = exp.description
