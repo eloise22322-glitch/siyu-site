@@ -68,9 +68,8 @@ export default function AboutSection() {
                   className="bg-[#FAF6F0] text-black border-4 border-black rounded-2xl p-5 sm:p-6 neo-shadow hover:translate-x-[-2px] hover:translate-y-[-2px] transition-all cursor-default relative z-10"
                 >
                   {/* Card Header */}
-                  <div className="flex items-center justify-end border-b-2 border-dashed border-gray-200 pb-3 mb-4">
-                    {/* Stage Badge & Icon */}
-                    <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-b-2 border-dashed border-gray-200 pb-3 mb-4">
+                    <div className="flex items-center gap-2 shrink-0">
                       <span className="text-[10px] font-mono font-black border-2 border-black px-1.5 py-0.5 rounded bg-[#FAF9F6] neo-shadow-sm">
                         STAGE 0{idx + 1}
                       </span>
@@ -78,16 +77,14 @@ export default function AboutSection() {
                         <RefreshCw size={14} className="text-black animate-spin-slow" />
                       </div>
                     </div>
-                  </div>
 
-                  {/* Card Main Info */}
-                  <h3 className="font-display font-black text-lg sm:text-xl text-black leading-snug">
-                    {exp.role}
-                  </h3>
+                    <h3 className="font-display font-black text-lg sm:text-xl text-black leading-snug">
+                      {exp.role}
+                    </h3>
 
-                  <p className="font-mono text-xs text-gray-500 font-bold mt-1">
-                    @{exp.company}
-                  </p>
+                    <p className="font-mono text-xs text-gray-500 font-bold sm:ml-auto">
+                      @{exp.company}
+                    </p>
 
                   {(() => {
                     const items = exp.description
