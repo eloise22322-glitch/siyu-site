@@ -3,7 +3,7 @@ import { ProjectType, WorkPost, ExperienceType, SkillCategory } from './types';
 export const PROJECTS_DATA: ProjectType[] = [
   {
     id: "proj_01",
-    title: "小红书设计师 KOS 打造（装修 AI 宣发）",
+    title: "小红书设计师 KOS 打造",
     subtitle: "以“真实旧房案例 + AIGC整屋案例矩阵”打通种草到咨询，为「被窝整装」稳定导流",
     platform: "小红书",
     tags: ["被窝整装导流", "KOS矩阵", "真实旧房改造", "AIGC整屋案例"],
@@ -36,8 +36,8 @@ export const PROJECTS_DATA: ProjectType[] = [
   },
   {
     id: "proj_01_copy",
-    title: "小红书设计师 KOS 打造（装修 AI 宣发）",
-    subtitle: "从 0 到 1 极速搭建设计师人设账户「设牛」，首周视频曝光量 50w+，累计获取 500w+ 精准流量",
+    title: "小红书koc种草矩阵（装修AI）",
+    subtitle: "从 0 到 1 极速搭建C端自装用户人设账户「设牛」，首周视频曝光量 50w+，累计获取 500w+ 精准流量",
     platform: "小红书",
     tags: ["KOS人设打造", "装修AI推广", "首周50w+", "500w+全网流量"],
     description: "用“硬核设计师人设 + 高真实感 AIGC 渲染对比”作为视觉锤，把抽象的 AI 装修能力翻译成可感知的空间结果，完成从内容起量到咨询导流的冷启动闭环。",
@@ -493,7 +493,7 @@ export const EXPERIENCES_DATA: ExperienceType[] = [
   {
     id: "exp_02",
     period: "2024.03-2025.01",
-    company: "北京阳光全息健康管理有限公司",
+    company: "北京阳光全景健康管理有限公司",
     role: "新媒体运营（营养品增长）",
     description: "从 0 到 1 搭建小红书种草矩阵与素材中台，跨平台店铺月 GMV 实现 1028% 增长（单月 7.9 万）；使用 RPA-GPT-Python 搭建自动化内容生产与分发流程，配合投放复盘与关键词策略，提升内容曝光与转化效率。",
     logoBg: "bg-[#FDCC0D]",
